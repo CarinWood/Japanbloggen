@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +11,8 @@
 :root {
     --primary-color: #FFF;
     --secondary-color: rgba(230, 230, 230, 0.9); 
+    --date-color: #575656;
+    --text-color: #262c33;
 }
 
 header {
@@ -21,6 +25,8 @@ header {
         background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 
 
@@ -29,6 +35,7 @@ header {
     font-family: 'Jost', sans-serif;
     src: url(fonts/Jost-VariableFont_wght.ttf);
 }
+
 
 /* Navbar */
 
@@ -40,6 +47,7 @@ nav {
     top: 20px; 
     left: 0;
     margin-left: 30px;
+    position: fixed;
 }
 
 ul {
@@ -60,7 +68,7 @@ ul li a {
 }
 
 ul li a:hover {
-
+    color: var(--secondary-color);
 }
 
 /* Search bar */
@@ -87,18 +95,31 @@ input {
     color: white;
 }
 
+.bx-search-alt-2:hover {
+    color: var(--secondary-color);
+}
+
 /* Icons */
 
 .icon-container {
     color: white;
     position: absolute;
-    font-size: 18px;
+    font-size: 20px;
     right: -250%;
     top:2px;
 }
 
+.icon-container a {
+    color: white;
+}
+
 .icon-container i {
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.icon-container i:hover {
+    color: var(--secondary-color);
 }
 
 .blog-name {
@@ -113,7 +134,73 @@ input {
 
 .content {
     background: var(--secondary-color);
-    position: fixed;
+    
+    
+}
+
+.blog-post {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.date {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: var(--date-color)
+} 
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+  
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.text-area p {
+    font-size: 15px;  
+    word-spacing: 0.2px;  
+    line-height: 1.6em;
+}
+    
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: var(--text-color);
+}
+
+.image-manga {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.image-manga img {
+    max-width: 100%;
+    height: auto;
+}
+
+.divider {
+    height: 0.2px;
+    width: 80%;
+    margin-top: 0px;
+    background-color: var(--date-color);
 }
 
 
