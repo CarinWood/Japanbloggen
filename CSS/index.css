@@ -10,9 +10,14 @@
 
 :root {
     --primary-color: #FFF;
-    --secondary-color: rgba(230, 230, 230, 0.9); 
+    --background-color: rgba(230, 230, 230, 0.9); 
     --date-color: #575656;
     --text-color: #262c33;
+    --hover-color: rgb(27, 26, 26);
+}
+
+.changeColor {
+    color: var(--hover-color);
 }
 
 header {
@@ -25,17 +30,13 @@ header {
         background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;  
 }
-
-
 
 @font-face {
     font-family: 'Jost', sans-serif;
     src: url(fonts/Jost-VariableFont_wght.ttf);
 }
-
 
 /* Navbar */
 
@@ -66,14 +67,16 @@ ul li {
 ul li a {
     text-decoration: none;
     color: var(--primary-color);
+    transition: 1s ease-in-out;
 }
 
 ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--hover-color);
 }
 
 .turn-gray {
-    color: rgb(173, 169, 169);
+    color: rgb(138, 135, 135);
+    transition: 1s ease-in-out;
 }
 
 /* Search bar */
@@ -82,12 +85,17 @@ ul li a:hover {
     position: absolute;
     top: 0;
     margin-left: 450px;
+    cursor: pointer;
+    color: white;
+    
 }
 
 input {
     border: none;
     border-radius: 3px;
     padding: 2px;
+    color: var(--date-color);
+    
 }
 
 .bx-search-alt-2 {
@@ -97,11 +105,12 @@ input {
     margin-top: 1px;
     font-size: 20px;
     cursor: pointer;
-    color: white;
+    transition: 1s ease-in-out;
 }
 
 .bx-search-alt-2:hover {
-    color: var(--secondary-color);
+    color: var(--hover-color);
+   
 }
 
 /* Icons */
@@ -121,10 +130,11 @@ input {
 .icon-container i {
     margin-left: 10px;
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 
 .icon-container i:hover {
-    color: var(--secondary-color);
+    color: var(--hover-color);
 }
 
 .blog-name {
@@ -138,7 +148,7 @@ input {
 }
 
 .content {
-    background: var(--secondary-color);
+    background: var(--background-color);
     
     
 }
