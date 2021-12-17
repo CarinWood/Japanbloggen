@@ -211,11 +211,80 @@ h2 {
     height: auto;
 }
 
-.divider {
-    height: 0.2px;
-    width: 80%;
-    margin-top: 0px;
-    background-color: var(--date-color);
+
+
+/* blog post 2 */
+
+.blog-post-two {
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+
+.garden-img {
+    width: 25%;
+    margin-right: 30px;
+    transition: 0.6s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+.fade::after {
+    content: "Japanese Garden";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background: black;
+    width: 100%;
+    height: 99%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade:hover::after {
+    opacity:0.5;
+}
+
+.garden-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text-area-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    padding-left: 130px;
+    padding-top: 10px;
+    padding-right: 0;
+}
+
+.text-area-two p {
+  
+    font-size: 15px;  
+    word-spacing: 0.2px;  
+    line-height: 1.6em;
+    padding-right: 100px;
 }
 
 
