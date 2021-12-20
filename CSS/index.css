@@ -153,6 +153,8 @@ input {
     width: 100%;  
 }
 
+/* Blog post 1 */
+
 .blog-post {
     padding-top: 100px;
     padding-bottom: 200px;
@@ -195,7 +197,6 @@ input {
     font-size: 14px;
     letter-spacing: 0.2px;
     text-transform: uppercase;
-    letter-spacing: 1px;
     word-spacing: 2px;
     color: var(--text-color);
     margin-bottom: 10px;
