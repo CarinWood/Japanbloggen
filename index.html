@@ -16,11 +16,12 @@
 
     </header>
 
-    <nav id="navbar">
+        
+    <nav id="links">
         <ul>
-            <li><a onscroll="changeColor" class="change" href="#">Blog</a></li>
-            <li><a class="change" href="#">About</a></li>
-            <li><a class="change" href="#">Contact</a></li>
+            <li><a onscroll="changeColor" class="change" href="index.html">Blog</a></li>
+            <li><a class="change" href="about.html">About</a></li>
+            <li><a class="change" href="contact.html">Contact</a></li>
 
         </ul>
 
@@ -46,7 +47,7 @@
         <!-- Blog post 1 -->
         <section class="blog-post">
             <article class="text-area">
-                <h2>Manga and Anime</h2>
+                <h2 class="blog-heading">Manga and Anime</h2>
                 <p class="date">DEC 16 2021</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius sequi alias aliquam laboriosam.
                     Fuga sint distinctio praesentium iste adipisci nulla impedit unde numquam officia nobis ea provident
@@ -64,14 +65,14 @@
                 </p>
             </article>
             <div class="image-manga">
-                <img src="/img/moe-ge64e84e6f_1920.png" alt="">
+                <img src="/img/moe-ge64e84e6f_1920.png" alt="manga character">
             </div>
         </section>
 
         <!-- Blog post 2-->
         <section class="blog-post-two">
             <article class="text-area-two">
-                <h2>Japanese Gardens</h2>
+                <h2 class="blog-heading">Japanese Gardens</h2>
                 <p class="date">DEC 17, 2021</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut sapiente odit iure expedita veniam,
                     incidunt perspiciatis est architecto iusto error atque magni. Ut, soluta.
@@ -82,16 +83,29 @@
             </article>
 
             <div class="image-row">
-                <div class="garden-img fade">
-                    <img  src="img/pexels-ryutaro-tsukata-5220100.jpg" alt="japanese garden"> 
+                <div class="garden-img">
+                    <img src="img/pexels-ryutaro-tsukata-5220100.jpg" alt="japanese garden">
+                    <div class="image-overlay">
+                        <a target="_blank" href="https://tokyogardentours.com/koishikawa-kourakuen/"><h3 class="image-title">Koishikawa Korakuen</h3></a>
+                    </div>
                 </div>
 
-                <div class="garden-img fade">
+                <div class="garden-img">
                     <img src="img/pexels-ryutaro-tsukata-6249516.jpg" alt="japanese garden">
+                    <div class="image-overlay">
+                        <a target="_blank" href="https://www.japanvisitor.com/japan-parks-gardens/mukojimahyakkaen">
+                            <h3 class="image-title">Mukojima Hyakkaen</h3>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="garden-img fade">
+                <div class="garden-img">
                     <img src="img/pexels-satoshi-hirayama-4058519.jpg" alt="japanese garden">
+                    <div class="image-overlay">
+                        <a target="_blank" href="https://www.japan-guide.com/e/e3026.html">
+                            <h3 class="image-title">Rikugien Garden</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -102,11 +116,71 @@
             <h2 class="heading-style">Mount Fuji</h2>
             <p class="date">DEC 18 2021</p>
             <p class="fuji-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, hic?</p>
-            <button class="explore-btn">Explore</button>
+            <a target="_blank" href="https://www.japan-guide.com/e/e2172.html"><button class="explore-btn">Explore</button></a>
         </section>
 
+        <!-- Blog post 4 -->
 
+        <section class="blog-post-four">
+
+            <article class="text-area-four">
+                <h2 class="food-heading">Japanese Food</h2>
+                <p id="date-four">DEC 19 2021</p>
+                <p id="text-four">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum provident quo at
+                    magnam quae, neque
+                    nemo obcaecati, vitae laudantium aliquid dolore doloribus tenetur fugiat distinctio eos expedita
+                    necessitatibus maxime voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    <br>
+                    <br>
+                    Praesentium tenetur laboriosam, voluptate dolorem porro quas iusto repudiandae minima labore placeat
+                    recusandae debitis ipsa quam corporis omnis dolores? Est, nulla atque.
+                </p>
+            </article>
+
+            <div class="image-row-four">
+                <article class="food-box">
+                   
+                        <div class="image-container-four">
+                          
+                        <img src="/img/secondsushi.jpg" alt="Tokyo">
+                        
+                        <div class="details">
+                                <p id="sushi">SUSHI</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-box">
+
+                    <div class="image-container-four">
+                        <img src="/img/yakitorithree.jpg" alt="Tokyo">
+                        
+                        <div class="details">
+                                <p id="yakitori">YAKITORI</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="food-box">
+
+                    <div class="image-container-four">
+                        <img src="/img/sashimi.jpg" alt="Yokohama">
+                        <div class="details">
+                            <p id="sashimi">SASHIMI</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+       
     </div>
+    <footer id="footer">
+        <p>&copy 2021 by Carin Wood Creations</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>

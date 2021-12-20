@@ -40,16 +40,16 @@ header {
 
 /* Navbar */
 
-#navbar {
+#links {
     font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    position: absolute;
     top: 20px; 
     left: 0;
-    margin-left: 30px;
+    margin-left: 60px;
     position: fixed;
-    cursor: pointer;    
+    cursor: pointer;   
+    z-index: 100;
 }
 
 ul {
@@ -106,6 +106,7 @@ input {
     font-size: 20px;
     cursor: pointer;
     transition: 1s ease-in-out;
+    z-index: 100;
 }
 
 .bx-search-alt-2:hover {
@@ -149,8 +150,7 @@ input {
 
 .content {
     background: var(--background-color);
-    
-    
+    width: 100%;  
 }
 
 .blog-post {
@@ -189,7 +189,7 @@ input {
 }
     
 
-h2 {
+.blog-heading {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -198,6 +198,7 @@ h2 {
     letter-spacing: 1px;
     word-spacing: 2px;
     color: var(--text-color);
+    margin-bottom: 10px;
 }
 
 .image-manga {
@@ -225,6 +226,7 @@ h2 {
     justify-content: flex-start;
     align-items: center;
     width: 60%;
+    z-index: 1;
 }
 
 .garden-img {
@@ -233,29 +235,57 @@ h2 {
     transition: 0.6s ease-in-out;
     position: relative;
     cursor: pointer;
+    z-index: 0;
 }
 
-.fade::after {
-    content: "Japanese Garden";
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    background: black;
+.image-overlay {
+    position: absolute;
+    top:0;
+    left: 0;
     width: 100%;
     height: 99%;
-    border-radius: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    font-size: 2px;
+    border-radius: 10px;
+    
 }
 
-.fade:hover::after {
-    opacity:0.5;
+.image-overlay a {
+    text-decoration: none;
+}
+
+
+.image-title {
+    font-size: 15px;
+    color: var(--primary-color);
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: 0.2s ease-in-out;
+    padding: 160px 30px 160px 30px;
+    height: 100%;
+}
+
+
+
+
+.image-overlay >* {
+    transform: translateY(20px);
+    transition: transform 0.5s;
+}
+
+.image-overlay:hover {
+    opacity: 1;
+
+}
+
+.image-overlay:hover >* {
+    transform: translateY(0);
 }
 
 .garden-img img {
@@ -309,11 +339,11 @@ h2 {
     left: 18%;
 }
 
-.blog-post-three h2 {
+.heading-style {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    letter-spacing: 0.2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -321,6 +351,7 @@ h2 {
     position: absolute;
     top: 35%;
     left: 18%;
+    margin-bottom: 10px;
 }
 
 .fuji-text {
@@ -360,5 +391,165 @@ h2 {
 }
 
 
+/* Blog post four */
+
+.text-area-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.food-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    margin-left: 280px;
+}
+
+#date-four {
+    color: var(--date-color);
+    margin-left: 280px;
+    margin-bottom: 60px;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    letter-spacing: 0.2px;
+}
+
+#text-four   {
+    width: 120%;
+    color: var(--primary-color);
+    font-size: 15px; 
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 15px;  
+    word-spacing: 0.2px;  
+    line-height: 1.6em;
+    margin-left: 280px;
+    margin-bottom: 60px;
+}
+
+.image-row-four {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    margin-left: 280px;
+}
+
+.image-container-four {
+    width: 300px;
+    height: 280px;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    
+}
+
+.image-container-four:hover img {
+    transform: scale(1.2);
+  
+    
+}
+
+.image-container-four img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 2s;
+    z-index: 9;
+}
 
 
+.food-box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.food-box p {
+    margin-bottom: 40px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    word-spacing: 0.2px;  
+    line-height: 1.6em;
+    color: var(--text-color);
+    width: 90%;
+}
+
+#text-four {
+    color: var(--text-color);
+    width: 50%;
+    margin-left: 280px;
+    margin-bottom: 60px;
+}
+
+
+.food-box .image-container-four .details {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 300px;
+    height: 280px;
+    z-index: 100;
+  
+    
+
+}
+
+
+.food-box .image-container-four .details p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    margin-left: 10px;
+
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: var(--background-color);
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#footer p {
+    color: var(--date-color);
+    margin-left: 280px;
+    
+    font-family: "Montserrat";
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    font-weight: 200;
+}
