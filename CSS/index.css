@@ -153,6 +153,15 @@ input {
     width: 100%;  
 }
 
+.heading {
+    font-family: 'Corinthia';
+    color: var(--primary-color);
+    font-size: 45px;
+    position: fixed;
+    top: 2%;
+    right: 15%;
+}
+
 /* Blog post 1 */
 
 .blog-post {
