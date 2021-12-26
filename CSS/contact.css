@@ -19,6 +19,9 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }  
 
 @font-face {
@@ -158,6 +161,11 @@ input {
     color: var(--hover-color);
 }
 
+.bx-search-alt-2:hover {
+    color: var(--hover-color);
+   
+}
+
 header h1 {
     color: var(--primary-color);
     font-family: 'Open Sans';
@@ -165,7 +173,8 @@ header h1 {
     font-weight: 600;
     position: absolute;
     bottom: 20%;
-    left: 50%;
+    margin-left: auto; 
+    margin-right: auto; 
     text-transform: uppercase;
     letter-spacing: 1px
 
@@ -274,6 +283,7 @@ header h1 {
     border: none;
     border-radius: 5px;
     width: 290px;
+    color: var(--date-color);
 
 }
 
@@ -291,7 +301,7 @@ header h1 {
     margin-bottom: 35px;
 }
 
-.btn:hover {
+#btn:hover {
     background-color:rgba(0, 0, 0, 0.1);
 }
 
