@@ -20,6 +20,7 @@
 ## Brödtext
 
 - font-family: 'Montserrat'
-- font-weight: 
+- font-size: 15px;
+- font-weight
 - word-spacing: 0.2px;  
 - line-height: 1.6em;

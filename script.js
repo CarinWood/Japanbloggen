@@ -29,3 +29,17 @@ function changeColor() {
 
 }
 
+
+
+// Contact form:
+
+let sendButton = document.getElementById('btn');
+sendButton.addEventListener('click', () => {
+    document.getElementById('name-field').value = '';
+    document.getElementById('email-field').value = '';
+    document.getElementById('phone-field').value = '';
+    document.getElementById('message-field').value = '';
+    alert('Thank you for your message!')
+});
+
+
