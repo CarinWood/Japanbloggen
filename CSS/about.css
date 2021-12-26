@@ -35,9 +35,15 @@ header {
     font-family: 'Corinthia';
     color: var(--primary-color);
     font-size: 45px;
-    position: fixed;
+    position: absolute;
     top: 2%;
     right: 15%;
+    transition: 1s ease-in-out;
+}
+
+.heading:hover {
+    color: var(--hover-color);
+    transition: 1s ease-in-out;
 }
 
 header h1 {
@@ -57,13 +63,11 @@ header h1 {
     --primary-color: #FFF;
     --background-color: rgba(230, 230, 230, 0.9); 
     --date-color: #575656;
-    --text-color: #262c33;
-    --hover-color: rgb(27, 26, 26);
+    --text-color: #262c33;  
+    --hover-color: rgb(126, 126, 126);
 }
 
-.changeColor {
-    color: var(--hover-color);
-}
+
 
 
 /* Navbar */
@@ -75,7 +79,7 @@ header h1 {
     top: 20px; 
     left: 0;
     margin-left: 60px;
-    position: fixed;
+    position: absolute;
     cursor: pointer;   
     z-index: 100;
 }
@@ -225,8 +229,8 @@ h2 {
 }
 
 .image-box {
-    width: 290px;
-    margin-left: 80px;
+    width: 300px;
+    margin-left: 160px;
 }
 
 .image-box img {
@@ -237,17 +241,6 @@ h2 {
   transform: scaleX(-1);
 }
 
-.tech-list {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 10px;
-}
-
-.tech-list li {
-    margin-left: 0;
-    margin-right: 20px;
-}
 
 
 /* Footer */

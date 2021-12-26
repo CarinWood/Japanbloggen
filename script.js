@@ -32,14 +32,22 @@ function changeColor() {
 
 
 // Contact form:
-
+let nameField =  document.getElementById('name-field');
 let sendButton = document.getElementById('btn');
+let messageField =  document.getElementById('message-field');
 sendButton.addEventListener('click', () => {
-    document.getElementById('name-field').value = '';
+    
+        if (nameField.value == '' || messageField.value == '') {
+            alert('Please fill in the required fields!')
+           
+        } else {
+            alert('Thank you ' + nameField.value +' for your message!')
+   nameField.value = '';
     document.getElementById('email-field').value = '';
     document.getElementById('phone-field').value = '';
-    document.getElementById('message-field').value = '';
-    alert('Thank you for your message!')
+    messageField.value = '';
+   
+        }
 });
 
 
