@@ -215,7 +215,7 @@ header h1 {
 }
 
 .contact-box {
-    max-width: 800px;
+    max-width: 860px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -224,7 +224,7 @@ header h1 {
 }
 
 .left {
-    width: 49%;
+    width: 50%;
     
 }
 
