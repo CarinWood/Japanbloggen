@@ -265,3 +265,55 @@ h2 {
     font-weight: 200;
 }
 
+@media (max-width: 992px) {
+    header {
+        max-height: 70vh;
+    }
+
+    #links {
+        margin-left: 0;
+    }
+
+    .search-bar {
+        margin-left: 0;
+        left: 130%;
+    }
+
+    .heading {
+        font-size: 45px;
+        top: 1%;
+        right: 6%;
+    }
+
+    .icon-container {
+        margin-top: 30px;
+        top: 100%;
+        display: flex;
+        flex-direction: column;
+        left: 10%;
+        width: 20%;
+    }
+
+    .icon-container i {
+        margin-top: 5px;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    h2 {
+        margin-left: 90px;
+    }
+
+    .about-text {
+        width: 45%;
+        margin-left: 90px;
+    }
+
+    .image-box {
+        margin-left: 20px;
+        width: 290px;
+    }
+}
+

@@ -8,6 +8,17 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    display: block;
+
+}
+
+
+
 :root {
     --primary-color: #FFF;
     --background-color: rgba(230, 230, 230, 0.9); 
@@ -26,11 +37,12 @@ header {
     background: linear-gradient(
         rgba(70, 69, 69, 0.5),
         rgba(36, 36, 36, 0.5)),
-        url(/img/headerbild.jpg);
+        url(/img/indexHeaderMedium.jpg);
         background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed; 
+   
 }
 
 @font-face {
@@ -47,7 +59,7 @@ header {
     top: 20px; 
     left: 0;
     margin-left: 60px;
-    position: fixed;
+    position: absolute;
     cursor: pointer;   
     z-index: 100;
 }
@@ -121,6 +133,9 @@ input {
     font-size: 20px;
     right: -250%;
     top:2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  
 }
 
@@ -556,10 +571,129 @@ h3 {
 #footer p {
     color: var(--date-color);
     margin-left: 280px;
-    
     font-family: "Montserrat";
     font-size: 14px;
     letter-spacing: 0.6px;
     word-spacing: 2px;
     font-weight: 200;
 }
+
+
+@media (max-width: 992px) {
+
+    header {
+        max-width: 100%;
+        height: 70vh;
+        background: linear-gradient(
+        rgba(70, 69, 69, 0.5),
+        rgba(36, 36, 36, 0.5)),
+        url(/img/indexHeaderMedium.jpg);
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    }
+    .text-area-two {
+        width: 80%;
+        margin-left: 0px;
+        padding-left: 70px;
+        margin-bottom: 80px;
+    }
+
+    .image-row {
+        position: absolute;
+        top: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+    }   
+
+    .garden-img {
+        width: 25%;
+    }
+
+    .image-overlay {
+        opacity: 1;
+    }
+
+    .image-title {
+        font-family: "Open Sans";
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+  
+
+    .blog-heading {
+        margin-right: 0px;
+    }
+
+    .blog-post-two {
+        position: relative;
+    }
+
+    .blog-post-three {
+        margin-top: 200px;
+        height: 50vh;
+    }
+
+    .fuji-text {
+        width: 30%;
+    }
+
+    .explore-btn {
+        border: 1px solid var(--hover-color);
+        box-shadow: 0.8px 2px rgba(0, 0, 0, 0.5);
+        font-weight: 400;
+        top: 70%;
+    }
+
+    .food-heading {
+        margin-left: 170px;
+    }
+
+    #date-four {
+        margin-left: 170px;
+    }
+
+    #text-four {
+        margin-left: 170px;        
+    }
+
+    .image-row-four {
+        width: 100%;
+        justify-content: space-around;
+        margin-left: 0px;
+        padding: 0px 80px 0px 100px;
+        margin-bottom: 40px;
+    }
+
+    .image-container-four {
+        width: 200px;
+        height: 180px;
+        margin-right: 0px;
+        padding: 0px;
+     
+        
+    }
+
+    .food-box p {
+     
+        display: flex;
+        justify-content: flex-end;
+        width: 45%;
+        margin-left: 100px;
+        padding-right: 5px;
+    }
+
+
+
+    .food-box .image-container-four .details p {
+        top: 35%;
+        
+     
+      
+     
+    }
+} 
