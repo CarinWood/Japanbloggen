@@ -115,40 +115,7 @@ ul li a:hover {
     transition: 1s ease-in-out;
 }
 
-/* Search bar */
 
-.search-bar {
-    position: absolute;
-    top: 0;
-    margin-left: 450px;
-    cursor: pointer;
-    color: white;
-    
-}
-
-input {
-    border: none;
-    border-radius: 3px;
-    padding: 2px;
-    color: var(--date-color);
-    
-}
-
-.bx-search-alt-2 {
-    position: absolute;
-    top: 0;
-    margin-left: 5px;
-    margin-top: 1px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-    z-index: 100;
-}
-
-.bx-search-alt-2:hover {
-    color: var(--hover-color);
-   
-}
 
 /* Icons */
 
@@ -156,7 +123,7 @@ input {
     color: white;
     position: absolute;
     font-size: 20px;
-    right: -250%;
+    right: -180%;
     top:2px;
 }
 

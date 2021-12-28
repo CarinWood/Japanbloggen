@@ -14,6 +14,8 @@ Jag ville inte använda bara vitt och svart, då jag tycker att det blev för sk
 
 Jag vill inte att användaren ska mötas och långa textväggar. Ingen orkar sitta fokuserat och läsa ett långt stycke text. Jag har därför brutit ned texten i kortare stycken med mycket luft emellan samt valt att ha lite space mellan orden. Jag upptäckte även att det blev mer lättläst om man ökar på line-height lite.
 
+Jag ville även att texten skulle vara lätt att se. Därför lade jag på ett filter med gråsvart över headerbilderna för att det vita skulle komma fram bättre. Annars försvann den vita texten i bilden.
+
 ## Japanese Food bilder
 
 Jag satt länge med att laborera med färg mot bakgrund, fontstorlek, avstånd mellan bokstäverna och vilken font som passar bäst för att få ett proffsigt uttryck som samtidigt är lättläst. Om bakgrunden är för stark försvinner de vita bokstäverna in i bakgrunden och det är svårare för ögat att läsa texten.

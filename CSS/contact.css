@@ -101,40 +101,7 @@ ul li a:hover {
     transition: 1s ease-in-out;
 }
 
-/* Search bar */
 
-.search-bar {
-    position: absolute;
-    top: 0;
-    margin-left: 450px;
-    cursor: pointer;
-    color: white;
-    
-}
-
-input {
-    border: none;
-    border-radius: 3px;
-    padding: 2px;
-    color: var(--date-color);
-    
-}
-
-.bx-search-alt-2 {
-    position: absolute;
-    top: 0;
-    margin-left: 5px;
-    margin-top: 1px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-    z-index: 100;
-}
-
-.bx-search-alt-2:hover {
-    color: var(--hover-color);
-   
-}
 
 /* Icons */
 
@@ -142,7 +109,7 @@ input {
     color: white;
     position: absolute;
     font-size: 20px;
-    right: -250%;
+    right: -180%;
     top:2px;
 }
 
@@ -160,10 +127,7 @@ input {
     color: var(--hover-color);
 }
 
-.bx-search-alt-2:hover {
-    color: var(--hover-color);
-   
-}
+
 
 header h1 {
     color: var(--primary-color);
@@ -267,6 +231,10 @@ header h1 {
     background-color: white;
     margin-bottom: 22px;    
     transition: 0.3s;
+    border: none;
+    outline: none;
+    border-radius: 5px;;
+    
 }
 
 .field:hover {
@@ -280,7 +248,6 @@ header h1 {
     border-radius: 5px;
     width: 290px;
     color: var(--date-color);
-
 }
 
 #btn {
@@ -394,10 +361,11 @@ header h1 {
         box-sizing: border-box;
     }
 
-    .field {
+    .field, #name-field {
         width: 250px;
         margin-bottom: 15px;
         font-size: 13px;
+       
     }
 
     .left img {
@@ -411,6 +379,7 @@ header h1 {
         width: 250px;
         margin-top: 0px;
         margin-bottom: 15px;
+        
     }
 
     #btn {

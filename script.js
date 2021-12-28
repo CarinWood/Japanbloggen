@@ -1,10 +1,11 @@
-window.addEventListener('scroll', changeColor);
+window.addEventListener('scroll', addBackground);
 
 
-function changeColor() {
+function addBackground() {
 
     let scrolled = window.scrollY;     
-    let change = document.getElementsByClassName('change');
+    let scrollMenu = document.getElementsByClassName('scroll-menu');
+  
 
 
     for (let i = 0; i < change.length; i++) {
