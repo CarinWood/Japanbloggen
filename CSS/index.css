@@ -42,6 +42,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
@@ -78,10 +82,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s ease-in-out;
+    z-index: 100;
 }
 
 .add-background {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s ease-in-out;
+    z-index: 100;
 }
 
 #links {
@@ -146,17 +154,16 @@ ul li a:hover {
 }
 
 .blog-name {
-   
-        color: var(--primary-color);
-        font-family: 'Open Sans';
-        font-size: 25px;
-        font-weight: 600;
-        position: absolute;
-    
-        margin-left: auto; 
-        margin-right: auto; 
-        text-transform: uppercase;
-        letter-spacing: 1px
+    color: var(--primary-color);
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20%;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-transform: uppercase;
+    letter-spacing: 1px
     
     }
 

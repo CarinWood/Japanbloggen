@@ -4,31 +4,21 @@ window.addEventListener('scroll', addBackground);
 function addBackground() {
 
     let scrolled = window.scrollY;     
-    let scrollMenu = document.getElementsByClassName('scroll-menu');
+    let scrollMenu = document.getElementsByClassName('scroll-menu')[0];
+    console.log(scrolled);
   
 
-
-    for (let i = 0; i < change.length; i++) {
-        const changeElement = change[i];
-
-        if (scrolled >= 752 && scrolled < 2183) {
-        changeElement.classList.add('turn-gray');
-        document.getElementsByClassName('bx')[0].style.color = 'rgb(138, 135, 135)';
-        document.getElementsByClassName('bx')[0].style.transition = '1s ease-in-out';
+    if (scrolled > 15) {
+        scrollMenu.classList.add('add-background');
+   
     
-    } else if (scrolled > 2884) {
-        changeElement.classList.add('turn-gray');
-        document.getElementsByClassName('bx')[0].style.color = 'rgb(138, 135, 135)';
-        document.getElementsByClassName('bx')[0].style.transition = '1s ease-in-out';
+    
+    } else if (scrolled < 15) {
+        scrollMenu.classList.remove('add-background');
     }
-    else {
-        changeElement.classList.remove('turn-gray');
-        document.getElementsByClassName('bx')[0].style.color = 'white';
-    }
+   
         
     }
-
-}
 
 
 
