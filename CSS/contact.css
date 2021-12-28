@@ -21,7 +21,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}  
+} 
+
+.changeColor {
+    color: var(--hover-color);
+}
 
 @font-face {
     font-family: 'Jost', sans-serif;
@@ -36,10 +40,11 @@ header {
 .heading {
     font-family: 'Corinthia';
     color: var(--primary-color);
-    font-size: 45px;
+    font-size: 50px!important;
     position: absolute;
-    top: 2%;
-    right: 15%;
+    top: 0.9%!important;
+    left: 10%;
+    margin-bottom: 20px!important;
     transition: 1s ease-in-out;
 }
 
@@ -55,23 +60,35 @@ header {
     --hover-color: rgb(126, 126, 126);
 }
 
-.changeColor {
-    color: var(--hover-color);
+/* Navbar */
+
+.scroll-menu {
+    width: 100%;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;
+    z-index: 100;
 }
 
-
-/* Navbar */
+.add-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s ease-in-out;
+    z-index: 100;
+}
 
 #links {
     font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    top: 20px; 
-    left: 0;
-    margin-left: 60px;
-    position: absolute;
     cursor: pointer;   
     z-index: 100;
+    margin-left: 250px;
 }
 
 ul {
@@ -96,25 +113,18 @@ ul li a:hover {
     color: var(--hover-color);
 }
 
-.turn-gray {
-    color: rgb(138, 135, 135);
-    transition: 1s ease-in-out;
-}
-
 
 
 /* Icons */
 
 .icon-container {
-    color: white;
-    position: absolute;
+    width: 200px;
     font-size: 20px;
-    right: -180%;
-    top:2px;
+    margin-left: 250px;
 }
 
 .icon-container a {
-    color: white;
+    color: var(--primary-color);
 }
 
 .icon-container i {

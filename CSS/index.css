@@ -18,7 +18,6 @@ body {
 }
 
 
-
 :root {
     --primary-color: #FFF;
     --background-color: rgba(230, 230, 230, 0.9); 
@@ -57,7 +56,7 @@ header {
 .heading {
     font-family: 'Corinthia';
     color: var(--primary-color);
-    font-size: 40px!important;
+    font-size: 50px!important;
     transition: 1s ease-in-out;
     position: absolute;
     top: 0.9%!important;
@@ -74,7 +73,7 @@ header {
 
 .scroll-menu {
     width: 100%;
-    height: 8vh;
+    height: 9vh;
     position: fixed;
     top: 0;
     padding: 0px;
@@ -124,18 +123,14 @@ ul li a:hover {
     color: var(--hover-color);
 }
 
-.turn-gray {
-    color: rgb(138, 135, 135);
-    transition: 1s ease-in-out;
-}
+
 
 
 /* Icons */
 
 .icon-container {
-    
-    font-size: 20px;
     width: 200px;
+    font-size: 20px;
     margin-left: 250px;
 }
 
@@ -155,14 +150,13 @@ ul li a:hover {
 
 .blog-name {
     color: var(--primary-color);
-    font-family: 'Open Sans';
-    font-size: 25px;
-    font-weight: 600;
+    font-family: 'Corinthia';
+    font-size: 85px;
+    font-weight: 300;
     position: absolute;
-    bottom: 20%;
+    bottom: 50%;
     margin-left: auto; 
     margin-right: auto; 
-    text-transform: uppercase;
     letter-spacing: 1px
     
     }
@@ -176,7 +170,7 @@ ul li a:hover {
 .heading {
     font-family: 'Corinthia';
     color: var(--primary-color);
-    font-size: 45px;
+    font-size: 45px!important;
     position: fixed;
     top: 2%;
     right: 15%;
