@@ -61,7 +61,7 @@ header {
     position: absolute;
     top: 0.9%!important;
     left: 10%;
-    margin-bottom: 20px!important;
+  
 }
 
 .heading:hover {
@@ -95,7 +95,6 @@ header {
     font-family: 'Jost', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: var(--primary-color);
     cursor: pointer;   
     z-index: 100;
     margin-left: 250px;
@@ -119,7 +118,7 @@ ul li a {
     transition: 1s ease-in-out;
 }
 
-ul li a:hover {
+#links a:hover {
     color: var(--hover-color);
 }
 
