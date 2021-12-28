@@ -34,20 +34,6 @@ header {
     src: url(/fonts/Corinthia-Regular.ttf);
 }
 
-.heading {
-    font-family: 'Corinthia';
-    color: var(--primary-color);
-    font-size: 50px;
-    position: absolute;
-    top: 0.9%!important;
-    left: 10%;
-    transition: 1s ease-in-out;
-}
-
-.heading:hover {
-    color: var(--hover-color);
-    transition: 1s ease-in-out;
-}
 
 header h1 {
     color: var(--primary-color);
@@ -74,82 +60,7 @@ header h1 {
 
 
 
-/* Navbar */
 
-.scroll-menu {
-    width: 100%;
-    height: 9vh;
-    position: fixed;
-    top: 0;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 1s ease-in-out;
-    z-index: 100;
-}
-
-.add-background {
-    background-color: rgba(0, 0, 0, 0.5);
-    transition: 1s ease-in-out;
-    z-index: 100;
-}
-
-#links {
-    font-family: 'Jost', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    margin-left: 250px;
-    cursor: pointer;   
-    z-index: 100;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-ul li {
-    margin-left: 30px;
-    text-transform: uppercase;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: var(--primary-color);
-    transition: 1s ease-in-out;
-}
-
-ul li a:hover {
-    color: var(--hover-color);
-}
-
-
-
-/* Icons */
-
-.icon-container {
-    font-size: 20px;
-    right: -180%;
-    margin-left: 250px
-}
-
-.icon-container a {
-    color: var(--primary-color);
-}
-
-.icon-container i {
-    margin-left: 10px;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-}
-
-.icon-container i:hover {
-    color: var(--hover-color);
-}
 
 /* Content */
 
@@ -234,7 +145,7 @@ h2 {
 
 #footer p {
     color: var(--date-color);
-    margin-left: 280px;
+    margin-left: 265px;
     font-family: "Montserrat";
     font-size: 14px;
     letter-spacing: 0.6px;
@@ -243,38 +154,7 @@ h2 {
 }
 
 @media (max-width: 992px) {
-    header {
-        max-height: 70vh;
-    }
-
-    #links {
-        margin-left: 0;
-    }
-
-    .search-bar {
-        margin-left: 0;
-        left: 130%;
-    }
-
-    .heading {
-        font-size: 45px;
-        top: 1%;
-        right: 6%;
-    }
-
-    .icon-container {
-        margin-top: 30px;
-        top: 100%;
-        display: flex;
-        flex-direction: column;
-        left: 10%;
-        width: 20%;
-    }
-
-    .icon-container i {
-        margin-top: 5px;
-    }
-
+   
     .about-content {
         width: 100%;
     }
