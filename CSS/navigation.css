@@ -217,11 +217,10 @@ ul li a:hover {
     .link-window {
         background-color:rgba(0, 0, 0, 0.5);
         border: none;
-        border-radius: 5px;
         position: fixed;
         top: 0%;
         left: 0%;
-        height: 27vh;
+        height:30vh;
         width: 100%;
         padding-top: 30px;   
         transition: 0.5s ease-in-out;
@@ -275,7 +274,7 @@ ul li a:hover {
     }
 
     .icons {
-      margin-top: 10px;
+      margin-top: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -351,6 +350,15 @@ ul li a:hover {
 }
 
 @media (max-width: 768px) {
+
+    .scroll-menu {
+        height: 8vh;
+    }
+
+    .show-window {
+        top: 8%!important;
+    }
+
     #links {
         border: 1px solid green;
         position: fixed;
