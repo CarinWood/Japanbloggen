@@ -196,13 +196,18 @@ ul li a:hover {
 
     .scroll-menu {
         height: 7vh;
+        transition: 0.2s ease-in-out;
+    }
+
+    .all-black {
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .bx-menu {
         visibility: visible;
         position: fixed;
         top: 1.2%;
-        left: 3%;
+        left: 90%;
         font-size: 38px;
         cursor: pointer;
         color: var(--primary-color);
@@ -211,15 +216,21 @@ ul li a:hover {
 
     .link-window {
         background-color:rgba(0, 0, 0, 0.5);
+        border: none;
         border-radius: 5px;
         position: fixed;
         top: 0%;
         left: 0%;
-        height: 20vh;
+        height: 27vh;
         width: 100%;
         padding-top: 30px;   
         transition: 0.5s ease-in-out;
         opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
     }
     
     .show-window {
@@ -229,26 +240,59 @@ ul li a:hover {
     
     
     .link-window ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        height: 19vh;
-        width: 80%;
+       padding-top: 8px;
+       display: block;
+       text-align: center;
+       height: 14vh;
+       width: 80%;
+      
+       
     }
     
     .link-window ul li {
-        font-size: 18px;
-        margin-bottom: 30px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+       
+
     }
     
     .link-window ul li a {
-            margin-bottom: 10px;
-            color: var(--primary-color);
+            
+        color: var(--primary-color);
+       
     }
     
-    .link-window ul li a:hover {
+    ul li a:hover {
         color: var(--hover-color);
+        
+    }
+
+    .change:hover {
+        color: blue;
+    }
+
+    .icons {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-left: 18px;
+      z-index: 3;
+     
+    }
+
+    .icons i {
+        margin-left: 15px;
+    }
+
+    .icons a {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-size: 25px;
     }
 
     header {
@@ -268,7 +312,7 @@ ul li a:hover {
 
     .heading {
         font-size: 45px!important;
-        left: 30%;
+        left: 10%;
     }
 
     #links {
@@ -316,8 +360,42 @@ ul li a:hover {
         top: 0;
     }
 
-
     .link-window {
         width: 100%;
     }
+
+    .heading {
+        font-size: 35px!important;
+        left: 5%;
+    }
+
+    .bx-menu {
+        left: 68%;  
+    }
+
+    .blog-name {
+        font-size: 50px;
+    }
+
+    .show-window {
+        top: 5.6%;
+    }
+
+    .link-window {
+        padding-top: 10px;
+        border: 1px solid white;
+    }
+
+    .link-window ul {
+        border: 1px solid white;
+        padding-top: 0px;
+    }
+
+    .link-window ul li {
+        font-size: 17px;
+        font-weight: 400;
+       
+        
+    }
+
 }

@@ -30,6 +30,7 @@ const menuBars = document.getElementsByClassName('bx-menu');
 for (let i = 0; i < menuBars.length; i++) {
     menuBars[i].addEventListener('click', () => {
         document.getElementsByClassName('link-window')[0].classList.toggle('show-window');
+        document.getElementsByClassName('scroll-menu')[0].classList.toggle('all-black');
     });
     
 }
