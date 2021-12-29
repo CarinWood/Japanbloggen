@@ -220,7 +220,7 @@ ul li a:hover {
         position: fixed;
         top: 0%;
         left: 0%;
-        height:30vh;
+        height: 38vh;
         width: 100%;
         padding-top: 30px;   
         transition: 0.5s ease-in-out;
@@ -274,7 +274,7 @@ ul li a:hover {
     }
 
     .icons {
-      margin-top: 20px;
+      margin-top: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -356,7 +356,7 @@ ul li a:hover {
     }
 
     .show-window {
-        top: 8%!important;
+        top: 8vh!important;
     }
 
     #links {

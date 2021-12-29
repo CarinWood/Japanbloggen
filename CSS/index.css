@@ -634,6 +634,7 @@ h3 {
 
     /* Blog Post 2 */
 
+  
     .text-area-two {
         display: flex;
         justify-content: center;
@@ -662,14 +663,36 @@ h3 {
     /* blog post 3 */
 
     .blog-post-three {
-        margin-top: 30px;
+        margin-top: 10px;
         height: 50vh;
         max-width: 100%;
         background-position: center center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0px;
+        padding: 0px;
+     
     }
 
-    .blog-post-three p {
-        width: 50%;
+  
+
+    .heading-style {
+       top: 15%;
+       margin-bottom: 0px;
+        
+    }
+
+    .fuji-date {
+      
+        top: 25%!important;
+        
+    }
+
+    .fuji-text {
+        width: 70%;
+        top: 37%;
     }
 
     .explore-btn {
