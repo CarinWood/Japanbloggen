@@ -31,3 +31,10 @@ Jag ville inte ha någon bakgrund på min navbar eftersom jag tyckte det såg kl
 För att göra sidan mer intressant har jag gjort varje blogginlägg olika. Ibland kan man interagera med bilderna och ibland är det en bild som bakgrund på blogginlägget. Jag tänker att det ska hålla kvar användarens fokus.
 
 Jag provade med många olika bakgrundsbilder och såg till att hitta bilder som gav ett lugnt intryck för ögat och gjorde texten lättläst.
+
+## Vad har gått bra och vad har gått dåligt?
+
+Jag har verkligen jobbat med att göra projektet till en användarupplevelse. T.ex. hur övergången med genomskinlig svart bakgrund sker när man klickar på meny-knappen i tablet och phone-mode samt att jag satte anime-figuren bakom texten i första blogginläggen i phone-mode. Likaså hur bilderna på mat i sista blogginlägget växlar i phone-mode.
+
+Det ska inte spela någon roll om användaren tittar på sidan på dator, tablet eller mobiltelefon. Jag ville skapa en bra användarupplevelse oavsett vilken enhet man använder och det tycker jag att jag har lyckats med.
+

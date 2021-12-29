@@ -219,11 +219,6 @@ header h1 {
         margin-left: 0;
     }
 
-    .search-bar {
-        margin-left: 0;
-        left: 130%;
-    }
-
     .icon-container {
         margin-top: 30px;
         top: 100%;
@@ -311,9 +306,67 @@ header h1 {
         margin-left: 0;
         text-align: center;
     }
+}
 
-  
-   
+@media (max-width: 768px) {
+
+    header {
+        height: 60vh;
+    }
+
+    .show-window {
+        top: 7%!important;
+    }
+
+
+    .bx-menu {
+        left: 0%;
+        top: 0%;
+        z-index: 100;
+    }
+
+    .get-in-touch {
+        font-size: 50px;
+        margin-bottom: 130px;
+        margin-left: 40px;
+        padding-top: 50px;
+        width: 350px;
+    }
+
+    .contact-box {
+        max-width: 350px;
+        height: auto;
+        position: relative;
+    }
+
+    .left {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.3;
+
+    }
+
+    .right {
+        position: absoute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+
+    #footer p {
+        margin-left: 0px;
+    }
 
 }
 

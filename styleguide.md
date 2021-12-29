@@ -12,6 +12,7 @@
 ## Datum
 
 - font-family: 'Open Sans'
+- font-size: 11px
 - font-weight: 200
 - letter-spacing: 0.2 px;
 - text-färg: date-color
@@ -20,7 +21,7 @@
 ## Brödtext
 
 - font-family: 'Montserrat'
-- font-size: 15px;
-- font-weight
-- word-spacing: 0.2px;  
-- line-height: 1.6em;
+- font-size: 15px
+- font-weight: 
+- word-spacing: 0.2px  
+- line-height: 1.6em
