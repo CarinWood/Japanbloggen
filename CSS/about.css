@@ -57,6 +57,20 @@ header h1 {
     --hover-color: rgb(126, 126, 126);
 }
 
+.link-window {
+    background-color:rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    position: fixed;
+    top: 5%;
+    left: -20%;
+    height: 20vh;
+    width: 20%;
+    padding-top: 30px;   
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
 
 
 

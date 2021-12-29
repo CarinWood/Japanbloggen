@@ -21,11 +21,28 @@ function addBackground() {
     }
 
 
+    
+//Show menu
+
+const menuBars = document.getElementsByClassName('bx-menu');
+
+
+for (let i = 0; i < menuBars.length; i++) {
+    menuBars[i].addEventListener('click', () => {
+        document.getElementsByClassName('link-window')[0].classList.toggle('show-window');
+    });
+    
+}
+
+
+
+
 
 // Contact form:
 let nameField =  document.getElementById('name-field');
 let sendButton = document.getElementById('btn');
 let messageField =  document.getElementById('message-field');
+
 sendButton.addEventListener('click', () => {
     
         if (nameField.value == '' || messageField.value == '') {
@@ -40,5 +57,7 @@ sendButton.addEventListener('click', () => {
    
         }
 });
+
+
 
 
