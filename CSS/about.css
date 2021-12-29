@@ -190,12 +190,14 @@ h2 {
 
 @media (max-width: 768px) {
     header {
-        height: 60vh;
+        height: 55vh;
+        position: center center;
     }
 
-    .content {
-       
+    header h1 {
+        bottom: 50%;
     }
+
 
     h2 {
         margin-left: 0px;
