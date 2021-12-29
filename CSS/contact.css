@@ -309,13 +309,20 @@ header h1 {
 }
 
 @media (max-width: 768px) {
-
-
     header {
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(/img/cherryAboutSmall.jpg);
         height: 55vh;
-        position: center center cover;
-
+        background-size: cover;
+        background-position: center center;
     }
+
+  
+   
+
+    
 
     header h1 {
         bottom: 50%;

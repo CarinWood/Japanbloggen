@@ -186,8 +186,7 @@ ul li a:hover {
         justify-content: center;
         align-items: center;
         overflow-x: hidden;
-        max-width: 100%;   
-       
+        max-width: 100%;      
     }
 
     .icon-container {
@@ -200,7 +199,7 @@ ul li a:hover {
     }
 
     .all-black {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
     .bx-menu {
@@ -215,19 +214,19 @@ ul li a:hover {
     }
 
     .link-window {
-        background-color:rgba(0, 0, 0, 0.5);
+        background-color:rgba(0, 0, 0, 0.8);
         border: none;
         position: fixed;
         top: 0%;
         left: 0%;
-        height: 38vh;
+        height: 40vh;
         width: 100%;
-        padding-top: 30px;   
+        padding-top: 0px;   
         transition: 0.5s ease-in-out;
         opacity: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         z-index: 5;
     }
@@ -239,18 +238,18 @@ ul li a:hover {
     
     
     .link-window ul {
-       padding-top: 8px;
+       margin-top: 35px;
+       padding-top: 0px;
        display: block;
        text-align: center;
        height: 14vh;
-       width: 80%;
-      
+       width: 80%;    
        
     }
     
     .link-window ul li {
-        font-size: 20px;
-        margin-bottom: 20px;
+        font-size: 23px;
+        margin-bottom: 35px;
         font-family: "Open Sans", sans-serif;
         font-weight: 600;
         letter-spacing: 0.2px;
@@ -269,12 +268,9 @@ ul li a:hover {
         
     }
 
-    .change:hover {
-        color: blue;
-    }
 
     .icons {
-      margin-top: 30px;
+      padding-top: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -285,7 +281,7 @@ ul li a:hover {
     }
 
     .icons i {
-        margin-left: 15px;
+        margin-left: 22px;
     }
 
     .icons a {
@@ -350,6 +346,7 @@ ul li a:hover {
 }
 
 @media (max-width: 768px) {
+    
 
     .scroll-menu {
         height: 8vh;
@@ -368,6 +365,7 @@ ul li a:hover {
 
     .link-window {
         width: 100%;
+        
     }
 
     .heading {

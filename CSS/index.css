@@ -592,8 +592,8 @@ h3 {
         rgba(36, 36, 36, 0.5)),
         url(/img/indexHeaderSmall.jpg);
         background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
    
     }
 
