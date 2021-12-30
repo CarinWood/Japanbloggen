@@ -194,7 +194,7 @@ ul li a:hover {
     }
 
     .scroll-menu {
-        height: 7vh;
+        height: 8vh;
         transition: 0.2s ease-in-out;
     }
 
@@ -219,7 +219,7 @@ ul li a:hover {
         position: fixed;
         top: 0%;
         left: 0%;
-        height: 46vh;
+        height: 50vh;
         width: 100%;
         padding-top: 0px;   
         transition: 0.5s ease-in-out;
@@ -232,7 +232,7 @@ ul li a:hover {
     }
     
     .show-window {
-        top: 7%;
+        top: 8vh;
         opacity: 1;
     }
     
@@ -281,7 +281,7 @@ ul li a:hover {
     }
 
     .icons i {
-        margin-left: 22px;
+        margin-left: 30px;
     }
 
     .icons a {

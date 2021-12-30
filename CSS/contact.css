@@ -319,27 +319,37 @@ header h1 {
         background-position: center center;
     }
 
-  
-   
-
-    
-
     header h1 {
         bottom: 50%;
     }
 
+    .content {
+        padding-bottom: 0px;
+    }
+
+   
+
     .get-in-touch {
         font-size: 50px;
-        margin-bottom: 130px;
+        margin-bottom: 150px;
         margin-left: 40px;
-        padding-top: 50px;
+        padding-top: 30px;
         width: 350px;
+    }
+
+    .container {
+        margin-bottom: 100px;
     }
 
     .contact-box {
         max-width: 300px;
         height: auto;
-        position: relative;
+        position: relative; 
+        margin-bottom: 40px!important;
+    }
+
+    .contact-us {
+        padding-bottom: 10px;
     }
 
     .left {
@@ -359,12 +369,13 @@ header h1 {
     }
 
     #footer {
-        padding-top: 30px;
-        padding-bottom: 0px;
+        margin-top: 30px;
+        padding-bottom: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 350px;
+        width: 300px;
+
     }
 
     #footer p {
