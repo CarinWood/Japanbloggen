@@ -210,6 +210,8 @@ header h1 {
 }
 
 @media (max-width: 992px) {
+
+   
     header {
         max-height: 70vh;
         max-width: 100%;
@@ -319,6 +321,10 @@ header h1 {
         height: 58vh;
         background-size: cover;
         background-position: center center;
+    }
+
+    .bx-menu {
+        left: 83%!important;
     }
 
     header h1 {
