@@ -217,6 +217,10 @@ header h1 {
         max-width: 100%;
     }
 
+    #link-window {
+        z-index: 100;
+    }
+
     #links {
         margin-left: 0;
     }
@@ -281,7 +285,7 @@ header h1 {
         width: 250px;
         margin-bottom: 15px;
         font-size: 13px;
-        z-index: 101;
+        z-index: 5;
        
     }
 
@@ -303,7 +307,7 @@ header h1 {
         margin-top: 0px;
         width: 250px;
         font-size: 13px;
-        z-index: 101;
+        z-index: 5;
     }
 
     #footer p {
@@ -350,7 +354,7 @@ header h1 {
 
     .container {
         margin-bottom: 100px;
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .contact-box {
@@ -358,6 +362,7 @@ header h1 {
         height: auto;
         position: relative; 
         margin-bottom: 40px!important;
+        border-radius: 5px;
     }
 
     .contact-us {
