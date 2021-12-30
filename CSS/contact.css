@@ -279,6 +279,7 @@ header h1 {
         width: 250px;
         margin-bottom: 15px;
         font-size: 13px;
+        z-index: 101;
        
     }
 
@@ -300,6 +301,7 @@ header h1 {
         margin-top: 0px;
         width: 250px;
         font-size: 13px;
+        z-index: 101;
     }
 
     #footer p {
@@ -314,7 +316,7 @@ header h1 {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)),
         url(/img/cherryAboutSmall.jpg);
-        height: 55vh;
+        height: 58vh;
         background-size: cover;
         background-position: center center;
     }
@@ -326,9 +328,7 @@ header h1 {
     .content {
         padding-bottom: 0px;
     }
-
-   
-
+    
     .get-in-touch {
         font-size: 50px;
         margin-bottom: 150px;

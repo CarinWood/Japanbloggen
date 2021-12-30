@@ -38,3 +38,7 @@ Jag har verkligen jobbat med att göra projektet till en användarupplevelse. T.
 
 Det ska inte spela någon roll om användaren tittar på sidan på dator, tablet eller mobiltelefon. Jag ville skapa en bra användarupplevelse oavsett vilken enhet man använder och det tycker jag att jag har lyckats med.
 
+## Vad har jag lärt mig?
+
+Jag har fått utmana mina kunskaper i design. Jag har även blivit bättre på att använda versionshantering och fått större förståelse för nyttan med att använda detta.
+
