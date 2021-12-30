@@ -313,6 +313,10 @@ header h1 {
 }
 
 @media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
     header {
         background: linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -324,7 +328,7 @@ header h1 {
     }
 
     .bx-menu {
-        left: 83%!important;
+        left: 85%!important;
     }
 
     header h1 {
@@ -333,6 +337,7 @@ header h1 {
 
     .content {
         padding-bottom: 0px;
+        width: 100%;
     }
     
     .get-in-touch {
@@ -345,6 +350,7 @@ header h1 {
 
     .container {
         margin-bottom: 100px;
+        max-width: 400px;
     }
 
     .contact-box {
