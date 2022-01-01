@@ -173,21 +173,27 @@ h2 {
     }
    
     .about-content {
-        width: 100%;
+        justify-content: center;
+        width: 88%;
+        margin-top: 60px;
     }
 
     h2 {
-        margin-left: 90px;
+        margin-left: 0px;
+        position: initial;
     }
 
     .about-text {
-        width: 45%;
-        margin-left: 90px;
+        align-items: center;
+        width: 65%;
+        margin-left: 0px;
     }
 
     .image-box {
-        margin-left: 20px;
-        width: 290px;
+        height: auto;
+        margin-left: 0px;
+        position: absolute;
+        opacity: 0.2;
     }
 }
 

@@ -4,9 +4,11 @@
 
 Jag vill göra en blogg om Japan som ska vända sig till alla som funderar på att resa till Japan eller bara lära sig mer om Japan. Användaren ska få tips på vad som finns att göra och se i Japan och även lära sig mer om japansk kultur.
 
-Målgruppen kan vara personer i alla åldrar och från alla samhällsklasser. Gemensamt för målgruppen är intresse för Japan som land.
+Målgruppen är personer i alla åldrar och från alla samhällsklasser. Gemensamt för målgruppen är intresse för Japan som land.
 
-Bloggen ska ge användaren en översikt och möjlighet att klicka sig in på hemsidor för att läsa mer. Bloggen ska även ge ett strukturerat och professionellt intryck. Det ska vara lätt att hitta kontaktvägar för att ge feedback på bloggen och det ska vara tydligt vem som tillhandahåller informationen.
+Bloggen ska ge användaren en översikt och möjlighet att klicka sig in på hemsidor för att läsa mer. Bloggen ska även ge ett strukturerat och professionellt intryck. Det ska vara lätt att hitta kontaktvägar för att ställa frågor eller ge feedback på bloggen och det ska vara tydligt vem som tillhandahåller informationen.
+
+Bloggen ska vara skriven på engelska för att nå ut till människor över hela världen.
 
 ## Styleguide
 
@@ -50,12 +52,15 @@ Under arbetet har det uppstått problem med stylingen. Jag har flertalet gånger
 
 På Contact-sidan i mobilläget fick jag byta headerbild. Jag fick inte bilden centrerad och passa den mindre skärmen, så jag valde att byta till en annan bild på körbärsblommor. Jag tycker dock den lösningen blev väldigt bra.
 
-
 ## Vad har jag lärt mig?
 
 Jag har fått utmana mina kunskaper i design. Jag har även blivit bättre på att använda versionshantering och fått större förståelse för nyttan med att använda detta.
 
 Jag har fått ökad förståelse för hur lång tid det tar att planera ett projekt när det gäller färg, form och övrig design.
+
+## Testning
+
+
 
 ## Vad hade kunnat förbättras?
 
