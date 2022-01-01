@@ -474,6 +474,13 @@ h3 {
     background-repeat: no-repeat;
    
     }
+
+    .image-manga {
+        width: 25%;
+        margin-top: 280px;
+        margin-left: 0px;
+        margin-right: 50px;
+    }
     .text-area-two {
         width: 80%;
         margin-left: 0px;
