@@ -39,8 +39,8 @@ header {
 :root {
     --primary-color: #FFF;
     --background-color: rgba(230, 230, 230, 0.9); 
-    --date-color: #575656;
-    --text-color: #262c33;
+    --date-color: rgb(87,86,86)
+    --text-color: rgb(38, 44, 51)
     --hover-color: rgb(126, 126, 126);
 }
 
@@ -428,7 +428,7 @@ h3 {
 
 
 .food-box .image-container-four .details p {
-    color: white;
+    color: var(--primary-color);
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 600;
