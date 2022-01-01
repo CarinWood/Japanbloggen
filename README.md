@@ -1,5 +1,13 @@
 # Japanbloggen
 
+## Projektplanering
+
+Jag vill göra en blogg om Japan som ska vända sig till alla som funderar på att resa till Japan eller bara lära sig mer om Japan. Användaren ska få tips på vad som finns att göra och se i Japan och även lära sig mer om japansk kultur.
+
+Målgruppen kan vara personer i alla åldrar och från alla samhällsklasser. Gemensamt för målgruppen är intresse för Japan som land.
+
+Bloggen ska ge användaren en översikt och möjlighet att klicka sig in på hemsidor för att läsa mer. Bloggen ska även ge ett strukturerat och professionellt intryck. Det ska vara lätt att hitta kontaktvägar för att ge feedback på bloggen och det ska vara tydligt vem som tillhandahåller informationen.
+
 ## Styleguide
 
 Jag förstod tidigt vikten av att ha en styleguide för att definiera de olika elementens attribut. En styleguide som finns med från början gör att man inte behöver gå tillbaka i koden för att se hur det förra blogginlägget var stylat utan man kan kika direkt i styleguiden för att se t.ex. vilken font, färg och storlek en viss text ska ha.
@@ -12,13 +20,15 @@ Jag ville inte använda bara vitt och svart, då jag tycker att det blev för sk
 
 ## Text
 
-Jag vill inte att användaren ska mötas och långa textväggar. Ingen orkar sitta fokuserat och läsa ett långt stycke text. Jag har därför brutit ned texten i kortare stycken med mycket luft emellan samt valt att ha lite space mellan orden. Jag upptäckte även att det blev mer lättläst om man ökar på line-height lite.
+Jag vill inte att användaren ska mötas och långa textväggar. Ingen orkar sitta fokuserat och läsa ett långt stycke text. Jag har därför brutit ned texten i kortare stycken med mycket luft emellan samt valt att ha lite space mellan orden. Jag upptäckte även att det blev mer lättläst om man ökar på line-height litegrann.
 
 Jag ville även att texten skulle vara lätt att se. Därför lade jag på ett filter med gråsvart över headerbilderna för att det vita skulle komma fram bättre. Annars försvann den vita texten i bilden.
 
-## Japanese Food bilder
+Jag har använt lättlästa fonter till rubriker och brödtext för att det ska vara lätt att läsa och innehållet snarare än designen ska komma i fokus. Dock valde jag en snirklig font till loggan för att göra det lite roligare och kontrasterande mot rubrikerna och brödtexten.
 
-Jag satt länge med att laborera med färg mot bakgrund, fontstorlek, avstånd mellan bokstäverna och vilken font som passar bäst för att få ett proffsigt uttryck som samtidigt är lättläst. Om bakgrunden är för stark försvinner de vita bokstäverna in i bakgrunden och det är svårare för ögat att läsa texten.
+## Text på bilder
+
+Jag jobbade länge med att laborera med färg mot bakgrund, fontstorlek, avstånd mellan bokstäverna och vilken font som passar bäst för att få ett proffsigt uttryck som samtidigt är lättläst. Om bakgrunden är för stark försvinner de vita bokstäverna in i bakgrunden och det är svårare för ögat att läsa texten.
 
 ## UX
 
@@ -26,19 +36,35 @@ Jag har tänkt på användarupplevelsen då jag t.ex. gjorde bilderna på Japans
 
 Jag har tänkt på att göra ikoner och knappar tillräckligt stora så att det inte ska vara svårt att hovra och klicka på dem.
 
-Jag ville inte ha någon bakgrund på min navbar eftersom jag tyckte det såg klumpigt ut med en bakgrund. Dock upptäckte jag att ikonerna och länkarna syns bra mot vissa av blogginläggens bakgrund med vissa bakgrunder gjorde att knapparna syns väldigt dåligt. Därför gjrode jag en funktion i javascript som byter färg på ikonerna och länkarna allteftersom man scrollar över olika bakgrunder.
-
 För att göra sidan mer intressant har jag gjort varje blogginlägg olika. Ibland kan man interagera med bilderna och ibland är det en bild som bakgrund på blogginlägget. Jag tänker att det ska hålla kvar användarens fokus.
 
 Jag provade med många olika bakgrundsbilder och såg till att hitta bilder som gav ett lugnt intryck för ögat och gjorde texten lättläst.
 
 ## Vad har gått bra och vad har gått dåligt?
 
-Jag har verkligen jobbat med att göra projektet till en användarupplevelse. T.ex. hur övergången med genomskinlig svart bakgrund sker när man klickar på meny-knappen i tablet och phone-mode samt att jag satte anime-figuren bakom texten i första blogginläggen i phone-mode. Likaså hur bilderna på mat i sista blogginlägget växlar i phone-mode.
+Jag har verkligen jobbat med att göra projektet till en bra användarupplevelse. T.ex. hur övergången med genomskinlig svart bakgrund sker när man klickar på meny-knappen i tablet och phone-mode samt att jag satte anime-figuren bakom texten i första blogginläggen i phone-mode. Likaså hur bilderna på mat i sista blogginlägget växlar i phone-mode.
 
 Det ska inte spela någon roll om användaren tittar på sidan på dator, tablet eller mobiltelefon. Jag ville skapa en bra användarupplevelse oavsett vilken enhet man använder och det tycker jag att jag har lyckats med.
+
+Under arbetet har det uppstått problem med stylingen. Jag har flertalet gånger fått använda !important för att tvinga fram den styling jag vill ha.
+
+På Contact-sidan i mobilläget fick jag byta headerbild. Jag fick inte bilden centrerad och passa den mindre skärmen, så jag valde att byta till en annan bild på körbärsblommor. Jag tycker dock den lösningen blev väldigt bra.
+
 
 ## Vad har jag lärt mig?
 
 Jag har fått utmana mina kunskaper i design. Jag har även blivit bättre på att använda versionshantering och fått större förståelse för nyttan med att använda detta.
 
+Jag har fått ökad förståelse för hur lång tid det tar att planera ett projekt när det gäller färg, form och övrig design.
+
+## Vad hade kunnat förbättras?
+
+Från början gjorde jag var sida för sig, men insåg en bit in i projektet att det hade varit bättre att sätta de delar av stylingen som återkommer i ett och samma css-dokument. Jag skapade då navigaton.css för att lyfta ur all återkommande styling dit istället. Detta är någonting jag skulle gjort från början.
+
+Om bloggen växer med fler inlägg kan det vara aktuellt med ett system för att söka i bloggen och/eller navigera sig mellan de olika inläggen. Det är sällan en användare läser alla inlägg i en blogg. Jag började bygga på en sökbar, men insåg att jag inte har all kunskap inom Javascript för att kunna bygga en sådan inom den givna tidsramen. Jag valde därför att ta bort denna. Dock tycker jag inte det är någon fara då det fortfarande bara är några få blogginlägg som är lätt att scrolla emellan.
+
+## Framtida möjligheter
+
+Jag har fått insikt i hur det är att planera en design och förstår att det är en stor del av arbetet om man skulle jobba som egenföretagare inom webbutveckling.
+
+Jag känner att jag skulle kunna designa webbsidor åt familj och vänner som ber mig om detta och kan nu planera och göra Wireframes som jag då skulle kunna kommunicera till min klient. Jag förstår också vikten av att ta reda på vilka som är klientens kunder och nyttan av att designa en webbsida utifrån de tänkta användarnas intressen och behov.
