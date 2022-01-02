@@ -16,9 +16,9 @@ Jag förstod tidigt vikten av att ha en styleguide för att definiera de olika e
 
 ## Färger
 
-Jag ville ha olika nyanser av vitt och ljusgrått för att få en modern och stilren design. Med vit som bakgrundsfärg blir man inte för fokuserad på bakgrunden utan kan fokusera mer på bilderna och texten i blogginläggen.
+Jag vill ge intrycket av en modern och stilren design. Med en vit bakgrundsfärg blir man inte för distraherad av bakgrunden utan kan fokusera mer på bilderna och texten i blogginläggen.
 
-Jag ville inte använda bara vitt och svart, då jag tycker att det blev för skarpa kontraster. Därför valde jag att använda lite mildare varianter av desamma som går åt det gråa hållet.
+Jag ville inte använda bara vitt och svart, då jag tycker att det blev för skarpa kontraster. Därför valde jag att använda lite mildare varianter av desamma som går åt det grå hållet.
 
 ## Text
 
@@ -26,7 +26,7 @@ Jag vill inte att användaren ska mötas och långa textväggar. Ingen orkar sit
 
 Jag ville även att texten skulle vara lätt att se. Därför lade jag på ett filter med gråsvart över headerbilderna för att det vita skulle komma fram bättre. Annars försvann den vita texten i bilden.
 
-Jag har använt lättlästa fonter till rubriker och brödtext för att det ska vara lätt att läsa och innehållet snarare än designen ska komma i fokus. Dock valde jag en snirklig font till loggan för att göra det lite roligare och kontrasterande mot rubrikerna och brödtexten.
+Jag har använt stilrena fonter till rubriker och brödtext för att det ska vara lätt att läsa och innehållet snarare än designen ska komma i fokus. Dock valde jag en snirklig font till loggan för att göra det lite roligare och kontrasterande mot rubrikerna och brödtexten.
 
 ## Text på bilder
 
@@ -60,7 +60,7 @@ Jag har fått ökad förståelse för hur lång tid det tar att planera ett proj
 
 ## Testning
 
-Jag har testat sidan i olika webbläsare och på Ipad och Iphone och sidan fungerar som den ska. 
+Jag har testat sidan i olika webbläsare och på Ipad och Iphone och sidan fungerar som den ska.
 
 ## Vad hade kunnat förbättras?
 
