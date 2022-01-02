@@ -185,15 +185,15 @@ h2 {
 
     .about-text {
         align-items: center;
-        width: 65%;
+        width: 60%;
         margin-left: 0px;
     }
 
     .image-box {
         height: auto;
-        margin-left: 0px;
-        position: absolute;
-        opacity: 0.2;
+        margin-left: 10px;
+        max-width: 25%;
+     
     }
 }
 

@@ -5,7 +5,7 @@ function addBackground() {
 
     let scrolled = window.scrollY;     
     let scrollMenu = document.getElementsByClassName('scroll-menu')[0];
-    console.log(scrolled);
+  
   
 
     if (scrolled > 15) {
