@@ -198,6 +198,11 @@ h2 {
 }
 
 @media (max-width: 768px) {
+
+    body {
+        overflow-X: hidden;
+    }
+
     header {
         height: 58vh;
         background: linear-gradient(
@@ -232,9 +237,12 @@ h2 {
     }
 
     .image-box {
+        max-width: 300px;
         margin-left: 0px;
         position: absolute;
+        left: 0;
         opacity: 0.2;
+
     }
 
     #footer {
