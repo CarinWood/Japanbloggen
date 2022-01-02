@@ -60,7 +60,7 @@ Jag har fått ökad förståelse för hur lång tid det tar att planera ett proj
 
 ## Testning
 
-
+Jag har testat sidan i olika webbläsare och på Ipad och Iphone och sidan fungerar som den ska. 
 
 ## Vad hade kunnat förbättras?
 

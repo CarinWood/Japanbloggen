@@ -316,7 +316,7 @@ header h1 {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     body {
         overflow-x: hidden;
