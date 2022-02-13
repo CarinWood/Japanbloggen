@@ -172,8 +172,6 @@ header {
 }
 
 
-
-
 .image-overlay >* {
     transform: translateY(20px);
     transition: transform 0.5s;
